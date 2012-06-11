@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 """
-Author: David Mellum
+Copyright: A2G Grafisk
+Author: David Ed Mellum <david@edmellum.com> (http://edmellum.com)
+License: MIT
 Checks a list of websites to see if they are up.
 If one is down an email is sent to the recievers set in the script.
 A flatfile and JSON is used to store wether the site was down last time the
 check was done so as to avoid spamming the email recievers.
 Run this as a cron job at regular intervals.
+
+Written quickly and dirty AKA functionally.
 """
 
 # You can change this. It's safe. No really. It is.
